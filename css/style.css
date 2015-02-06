@@ -2,8 +2,11 @@
 
 body  {
     background-color: blueviolet;
-    background-image: url(http://media3.giphy.com/media/vWCBJQVex0bdu/200.gif/);
+    background-image: url(http://media.giphy.com/media/vWCBJQVex0bdu/giphy.gif);
     text-align: center;
+    font-style: italic;
+    color: white;
+    opacity: 7;
     
 }
    
