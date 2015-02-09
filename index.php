@@ -1,29 +1,14 @@
-<!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<img src="http://media.giphy.com/media/RfJXiWNhSEshO/giphy.gif"> <br/>-->
+                                          
+    <?php
+    require_once(__DIR__ . '/view/header.php');
+    
+    require_once(__DIR__ . '/view/navigation.php');
+    
+    require_once (__DIR__ . '/controller/create-db.php');
 
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-        <link type="text/css" rel="stylesheet" href="css/style.css">
+    require_once(__DIR__ . '/view/footer.php');
+     ?> 
 
-        
-    </head>
-    <body>
-        
-        <img src="http://media.giphy.com/media/RfJXiWNhSEshO/giphy.gif"> <br/>
-        
-        <?php
-//          echo "Web Server is Running Locally";
-require_once (__DIR__ . "/controller/create-db.php");
-          
-        
-        ?> 
-        
-        
-    </body>
-</html>
