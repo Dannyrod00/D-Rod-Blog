@@ -1,6 +1,6 @@
 <?php
 
-require_once (__DIR__ . "/../model/database.php ");
+require_once (__DIR__ . "/../model/config.php ");
 
 $connection = new mysqli($host, $username, $password);
 
@@ -18,7 +18,7 @@ if (!$exists) {
         echo "<p>successfully created database " . $database . "</p>";
     }
 } else {
-    echo 'Database already exists.';
+    echo "Database already exists.";
 }
 
 $query = $connection->query("CREATE TABLE posts ("
@@ -28,7 +28,7 @@ $query = $connection->query("CREATE TABLE posts ("
         . "PRIMARY KEY (id))");
 
 if ($query) {
-    echo '<p>Succesfully created table: posts</p>';
+    echo "<p>Succesfully created table: posts</p>";
 } 
 else {
     echo "<p>$connection->error</p>";
