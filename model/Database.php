@@ -12,5 +12,22 @@ class Database {
         $this->username = $username;
         $this->database = $database;
     }
+   
+    public function openConnection() {
+        $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
+       
+        if 
+        
+    
+}
+
+public function closeConnection() {
+    
+}
+
+public function query($string) {
+    
+}
+
 }
 
