@@ -1,5 +1,4 @@
 <?php
-
 require_once (__DIR__ . "/../model/config.php ");
 
 $connection = new mysqli($host, $username, $password);
@@ -22,7 +21,7 @@ if (!$exists) {
 }
 
 $query = $connection->query("CREATE TABLE posts ("
-        . "id init(11) NOT NULL AUTO_INCREMENT,"
+        . "id int(11) NOT NULL AUTO_INCREMENT,"
         . "title varchar(255) NOT NULL,"
         . "post text NOT NULL,"
         . "PRIMARY KEY (id))");
