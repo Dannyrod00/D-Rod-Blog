@@ -9,19 +9,13 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Blog</title>
-        
+        <link type="text/css" rel="stylesheet" href="css/style.css">
 
-        
-    </head>
+      </head>
     <body>
-        
-        <div class="jumbotron">
     
-    <img src="http://media.giphy.com/media/RfJXiWNhSEshO/giphy.gif"> <br/>
-    
-</div>
-        
-               <script src="js/bootstrap.min.js"></script>
 
-        
+
+
+
 

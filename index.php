@@ -1,4 +1,3 @@
-<link type="text/css" rel="stylesheet" href="css/style.css">
 
     <?php
     require_once(__DIR__ . '/view/header.php');
