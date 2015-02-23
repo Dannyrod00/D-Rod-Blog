@@ -13,7 +13,7 @@
     require_once(__DIR__ . '/view/footer.php');
     
 //this connects read-posts page to the index page 
-    require_once(__DIR__ . "/controller/read-posts.php");
+    require_once(__DIR__ . "/controller/read-post.php");
 ?>
      
 
