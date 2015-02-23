@@ -2,11 +2,24 @@
 
 body  {
     background-color: blueviolet;
-    background-image: url(http://media.giphy.com/media/vWCBJQVex0bdu/giphy.gif);
-    
+/*  background-image: url(http://media.giphy.com/media/vWCBJQVex0bdu/giphy.gif);*/
+    background-image: url(http://media3.giphy.com/media/BPJO9xQqIRhGU/giphy.gif);
     text-align: center;
     font-style: italic;
-    color: white;
+    color: blue;
 
 }
-   
+
+h1 {
+    color: orangered;
+    border: solid;
+    border-left-color: darkslategrey;
+    border-right-color: white;
+    border-top-color: darkslategrey;
+    border-bottom-color: white;
+    text-align: center;
+    
+}
+
+
+
