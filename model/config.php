@@ -1,7 +1,8 @@
 <?php
 //This links this page to database.php 
-require_once (__DIR__ . "/database.php");
+require_once (__DIR__ . "/Database.php");
 session_start();
+session_regenerate_id(true);
 //this is for the post.php page and can  be searched for in the xampp folder
 $path = "/MalfitanoN-Blog/";
     //Name of host

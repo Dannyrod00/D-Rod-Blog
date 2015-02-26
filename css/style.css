@@ -6,12 +6,12 @@ body  {
     background-image: url(http://media3.giphy.com/media/BPJO9xQqIRhGU/giphy.gif);
     text-align: center;
     font-style: italic;
-    color: blue;
+    color: lawngreen;
 
 }
 
 h1 {
-    color: orangered;
+    color: blueviolet;
     border: solid;
     border-left-color: darkslategrey;
     border-right-color: white;
@@ -20,6 +20,11 @@ h1 {
     text-align: center;
     
 }
+
+nav {
+    display: block;
+}
+
 
 
 
